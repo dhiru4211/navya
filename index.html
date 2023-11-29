@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;   
+        }
+        html {
+    scroll-behavior: smooth;
+}
+
+#navbar{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+}
+
+#navbar::before {
+    content: " ";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 2rem;
+}
+
+#navbar ul li a {
+    display: inline;
+    padding: 3px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul li a:hover {
+    color: rgb(19, 23, 234);
+    background-color: rgb(244, 255, 127);
+}
+
+        /* body{
+            margin:0px;
+            background-color: rgb(239, 239, 153);  
+        } */
+    header{
+        display: flex;
+        background-color: rgb(243, 243, 162);
+       
+    }
+
+    header h1{
+        display: flex;
+        background-color: rgb(67, 111, 216);
+        height: 100px;
+        padding: 45px 45px;
+        color: aliceblue;
+        animation-name: digital;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        flex-wrap: wrap;
+    }
+    @keyframes digital {
+        from {
+            width: 600px ;
+        }
+        to{
+            width: 1300px;
+        }
+    }
+    /* .item{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    } */
+    /* .item li{
+        list-style: none;
+        font-size: 25px;
+        padding: 40px 40px;
+        
+    } */
+    .pic{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ob{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(102, 139, 226);
+        box-shadow: 20px 20px rgb(239, 239, 153) , inset 20px 20px rgb(239, 239, 153);
+        border-radius: 36px;
+        padding: 45px 55px;
+        margin: 20px 30px;
+        height: 300px;
+        width: 85vw;
+        transition: all 1s ease-in-out;
+        }
+        .ob:hover{
+            background-color: rgb(239, 239, 153);
+            box-shadow: 25px 25px rgb(102, 139, 226),inset 20px 20px rgb(102, 139, 226) ;
+            
+        }
+        .ob ul li{
+            
+            padding: 20px 40px;
+            
+        }
+        .ob1{
+            font-size: 54px;
+            color: rgb(67, 111, 216);
+            padding: 15px 15px;
+        }
+        .obb{
+            display: flex;
+            background-color: rgb(102, 139, 226);
+            animation-name: digi;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+@keyframes digi {
+from{
+    width: 200px;
+}
+to{
+    width: 1500px;
+}
+   }
+ #box2{
+     width: 85vw;
+ } 
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+        <img src="WhatsApp Image 2023-11-29 at 17.16.24 (1).jpeg">
+        </div>
+        <h1>ELECTRICAL ENGINEERING SOCEITY , IET LUCKNOW</h1>
+    </header>
+
+    <!-- navigation section -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#HOME">HOME</a></li>
+            <li><a href="#ABOUT">ABOUT</a></li>
+            <li><a href="#POSTHOLDERS">POST HOLDERS</a></li>
+            <!-- <li><a href="#">EVENTS</a></li> -->
+            <li><a href="#">ACHEIVEMENTS</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+    <hr>
+
+    <!--Home section  -->
+    <div id="HOME">
+        <div id="pic">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8Dd3dcHzlEVJXSq4QUDmhqbjgQ8ongyzjY7BmQLK1nGiMcg2AUCjLywBHdqMM4RfUDn15YjyWfHsrMS5tcAzk-WkgAopPZ37GifZx6WrXF2nxGLu6EpMXioNdOkZyOSclGD5rIitkSQ88Q3tNv2qRIHPFiImL0sS03hKRzVMs_R2SvqQxVSWfdc2t4oM/w400-h300/WhatsApp%20Image%202023-10-01%20at%2011.51.18.jpeg">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBWTjJdMaN17mEHPpXzNT03DwM9kXEzq8ZVIO3sqQhP0qjdLgNM0amrQcIwtpBCDphqOM26-zMlaEY6TadX_MFFG7QU55MrRLA1en6w8DO8m3ga4qOljhDe4PLqZemhBfSAmqhSis0ZS_geVu1u8PUgwIuVnq5TxqIX65MAC35umAJlhxf8vh8HFdsZ0M/w400-h300/WhatsApp%20Image%202023-10-01%20at%2011.51.50.jpeg">
+            <img src="WhatsApp Image 2023-10-17 at 3.25.21 PM.jpeg" width="400px"height="300px">
+
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="about" id="ABOUT">
+    
+        
+            <h1 class="ob1">ABOUT </h1>
+            <div class="cont">
+
+                <div class="ob" id="box">
+                    
+                    <ul>
+                        <li>The department of electrical engineering is one of the eight departments in the Institute of Engineering and Technology and offers degrees at the Bachelor, Master and PhD level. It was established in 1984 and is recognised by AICTE, New Delhi. The department is one of the largest and oldest departments in the Institute, and has a well qualified faculty, all holding degrees from renowned institute in India. The Department of Electrical Engineering is committed to grow further as a socially responsible and research oriented centre of learning.</li>
+                        <li>Electrical Engineering Soceity is the oldest student society of the institute of engineering and Technology Lucknow working under the Electrical Engineering Department of the institute for enhancing the technical skills of the students.</li>
+                        <li>EES has benchmarked its efforts in providing a platform to the students for exposure into the fields of electrical engineering beyond the syllabus and curriculum by arranging workshops, expert lectures and several workshop sessions.</li>
+                        
+                    </ul>
+                    
+                </div>
+                
+                <div class="ob" id="box1">
+                    
+                    <ul>
+
+                        <h1>VISION OF THE DEPARTMENT </h1>
+                        <ul><li>To outshine in edification, research and industrial services in the electrical engineering in tune with the societal aspirations</li>
+                            <h1>MISSION OF THE DEPARTMENT</h1>
+                            <li>Impart value education to produce globally comptent electrical engineers proficient of extending industrial services.</li>
+                            <li>To engage in research & progress in cutting edge and sustainable technologies.</li>
+                            <li>To nurture scientific personality, professional ethics and industrial cooperation.</li>
+                        </ul>   
+                    </ul>
+                    </div>
+            <div class="ob" id="box2">
+                <ul>
+                       <h1>OBJECTIVES</h1><ul>
+                           <li>To reintroduce IEEE(Institute of electrical and electronic engineers)paper (which is a platform for EE and EC research field).</li>
+                           <li>To launch technical subject's notes that will be accessible to all.</li>
+                           <li>To launch E-magazine of the electrical engineering department.</li>
+                           <li>To build up Alumni & college relation strong.</li>
+                           <li>To conduct workshops to provide practical knowledge.</li>
+                          </ul>
+
+                       </ul>
+
+            </div>
+            <br>
+            <br>
+        <div class="obb" id="POSTHOLDERS">
+            <h1>POST HOLDERS 2023-2024</h1>
+            <img src="WhatsApp Image 2023-10-01 at 13.46.12.jpeg" width="600px" height="600px">
+        </div>
+        
+    </div>
+  <div class="event" id="EVENTS">
+
+  </div>
+    
+    
+</body>
+</html>
